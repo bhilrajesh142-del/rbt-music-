@@ -1,0 +1,16 @@
+name: rbt_music
+description: RBT MUSIC player
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+  photo_manager: ^3.5.0
+
+flutter:
+  uses-material-design: true
